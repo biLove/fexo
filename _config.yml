@@ -1,7 +1,7 @@
 # Blog info
-blog_name: Forsigner
-slogan: Find the bug of the world
-url: http://www.forsigner.com
+blog_name: Lilya
+slogan: Just do it.
+url: http://bilove.github.io/
 
 # Set avatar (Absolute url and relative url)
 avatar: /images/avatar.jpg
@@ -10,7 +10,7 @@ avatar: /images/avatar.jpg
 favicon: /favicon.ico
 
 # For seo
-keywords: forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: Lilya,前端,设计,产品,交互,旅行,画画,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
 
 home_nav:
   - name: Blog
@@ -20,11 +20,9 @@ home_nav:
     url: /project/
     target_blank: true #在新页面打开
   - name: Github
-    url: https://github.com/forsigner
+    url: https://github.com/biLove
     target_blank: true
-  - name: Twitter
-    url: https://twitter.com/forsigner
-    target_blank: true
+
 
 # config page nav
 page_nav:
@@ -43,14 +41,14 @@ page_nav:
   - name: 关于
     url: /about/
     target_blank: false
-  - name: RSS
-    url: /atom.xml
-    target_blank: true # 在新页面打开
+  # - name: RSS
+  #   url: /atom.xml
+  #   target_blank: true # 在新页面打开
   - name: 搜索
     url: /search/
     target_blank: false # 在新页面打开
 
-page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
+page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT  页面导航设置为圆形或者椭圆
 
 # 面包屑
 breadcrumb:
@@ -63,11 +61,11 @@ toolbox:
 
 search_slogan:
   isShow: true # true|fase
-  text: Can you find the bug of world ~
+  text: Hi，there ~
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+  text: 交换友链可以邮件 beyourself1997@gmail.com
 
 # set backtop show or hide
 backtop:
@@ -120,28 +118,34 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "Scut，1991，Spring."
-    - "喜欢设计，擅长编程，喜欢睡懒觉."
-    - "前端开发工程师，常用 HTML / CSS / JavaScript."
+    - "Lilya，1989，Winter."
+    - "想成为一名牛逼的设计师、懂产品、懂前端，喜欢旅行，喜欢美食，怕长胖."
+    - "上一段经历是一名美食产品经理，但深感无力."
+    - "目前在寻找新的兴趣点"
   - type: Github
     icon: icon-github
     text_key: Github
-    text_value: "@forsigner"
-    text_value_url: https://github.com/forsigner
+    text_value: "@biLove"
+    text_value_url: https://github.com/biLove
   - type: weibo
     icon: icon-weibo
     text_key: 微博
-    text_value: "@forsigner"
-    text_value_url: http://weibo.com/u/1847075964
+    text_value: "@lilya_bao"
+    text_value_url: http://weibo.com/u/2011145181
   - type: mail
     icon: icon-mail
     text_key: Gmail
-    text_value: "forsigner@gmail.com"
+    text_value: "beyourself1997@gmail.com"
   - type: location
     icon: icon-location
-    text_value: 珠海
+    text_value: 北京
 
 link:
+  - name: forsigner
+    info: Find the bug of the world
+    url: http://forsigner.com/
+    avatar: http://forsigner.com/images/avatar.jpg
+    #avatar: https://avatars3.githubusercontent.com/u/1414745?v=3&s=100
   - name: 织网
     info: 身体和灵魂，总有一个在路上
     url: http://zheng-ji.info/

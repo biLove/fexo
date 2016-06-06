@@ -16,12 +16,15 @@ home_nav:
   - name: Blog
     url: /archives
     target_blank: false #不在新页面打开
-  - name: Project
-    url: /project/
+  - name: Category
+    url: /category/
     target_blank: true #在新页面打开
-  - name: Github
-    url: https://github.com/biLove
-    target_blank: true
+  - name: About
+    url: /about/
+    target_blank: true #在新页面打开
+#  - name: Github
+#    url: https://github.com/biLove
+#    target_blank: true
 
 
 # config page nav
@@ -34,6 +37,9 @@ page_nav:
     target_blank: false
   - name: 标签
     url: /tag/
+    target_blank: false
+  - name: 项目
+    url: /project/
     target_blank: false
   - name: 友链
     url: /link/
@@ -119,9 +125,12 @@ about:
     icon: icon-user
     text_value:
     - "Lilya，1989，Winter."
-    - "想成为一名牛逼的设计师、懂产品、懂前端，喜欢旅行，喜欢美食，怕长胖."
-    - "上一段经历是一名美食产品经理，但深感无力."
-    - "目前在寻找新的兴趣点"
+    - "立志成为一名牛逼的产品经理。"
+    - "[爱好]：画画、旅行、美食、看书、健身。"
+    - "[行动指南]：让思想和身体，至少一个走在路上。"
+    - "[感兴趣的领域]：美食类、旅行类产品。"
+    - "如果有机会的话，我想走遍世界每一个角落，认识各种不同的人。"
+
   - type: Github
     icon: icon-github
     text_key: Github
